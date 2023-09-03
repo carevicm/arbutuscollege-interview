@@ -69,6 +69,6 @@ void heap_sort(int *array, size_t size)
 	for (i = size - 1; i >= 0; i--)
 	{
 		_swap(array, 0, i, r_size);
-		
+		_largest(array, i, 0, r_size);
 	}
 }
